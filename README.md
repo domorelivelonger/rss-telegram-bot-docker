@@ -3,7 +3,7 @@
 A self-hosted telegram python bot that dumps posts from RSS feeds to a telegram chat.
 # Usage
 ```
-docker create \
+docker run -itd \
   --name=rss.telegram.bot.docker \
   -e rsslink=InsertLinktoRSS \
   -e api=InsertToken \
