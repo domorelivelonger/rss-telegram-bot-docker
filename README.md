@@ -9,4 +9,4 @@ docker create \
   -e api=InsertToken \
   -e chatid=InsertChatID \
   --restart unless-stopped \
-  domorelivelonger/rss.to.telegram
+  domorelivelonger/rss-telegram-bot-docker
