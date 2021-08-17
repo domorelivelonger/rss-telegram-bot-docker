@@ -1,0 +1,7 @@
+chats:
+  - chat_name: 'Projects'
+    chat_id: '${chatid}'
+    feeds:
+      - name: 'Upwork'
+        url: '${rsslink}'
+        disabled: false

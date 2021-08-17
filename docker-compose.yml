@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  upwork-rss-telegram:
+    container_name: rss-telegram-bot-docker
+    build: .
+    image: domorelivelonger/rss-telegram-bot-docker
+    env_file: .env
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 128M
+        reservations:
+          cpus: '0.5'
+          memory: 128M
+    restart: always
